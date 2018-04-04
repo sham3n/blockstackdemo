@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="600dp"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="@android:color/background_light">
+
+    <TextView android:id="@+id/content"
+        style="@android:style/TextAppearance.Material.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@android:color/darker_gray" />
+</LinearLayout>

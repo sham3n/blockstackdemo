@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.blockstack.sammy.ui.NameDetailFragment"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/namespace_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_detail_id"
+            style="@android:style/TextAppearance.Material.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="name id" />
+
+        <TextView
+            android:id="@+id/name_detail_owner"
+            style="@android:style/TextAppearance.Material.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/owner_hash" />
+
+        <include layout="@layout/user_profile" android:visibility="gone"/>
+
+        <TextView
+            style="@android:style/TextAppearance.Material.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/summary" />
+
+        <TextView
+            android:id="@+id/name_detail_value_hash"
+            style="@android:style/TextAppearance.Theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="value hash" />
+
+        <TextView
+            android:id="@+id/name_detail_expires"
+            style="@android:style/TextAppearance.Theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="value hash" />
+
+        <TextView
+            android:id="@+id/name_detail_blockchain"
+            style="@android:style/TextAppearance.Theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="value hash" />
+
+        <TextView
+            android:id="@+id/name_detail_last_txid"
+            style="@android:style/TextAppearance.Theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="value hash" />
+
+        <TextView
+            android:id="@+id/name_detail_zone_file"
+            style="@android:style/TextAppearance.Theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_border_bottom"
+            tools:text="value hash" />
+
+        <TextView
+            style="@android:style/TextAppearance.Material.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gray_border_bottom"
+            android:text="@string/history" />
+    </LinearLayout>
+</ScrollView>

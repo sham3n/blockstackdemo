@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Blockstack Sammy App</string>
+    <string name="title_namespaces">Namespaces</string>
+    <string name="title_name_info">Ryan Name Info</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="summary"><b>Summary</b></string>
+    <string name="history">History</string>
+
+    <string name="owner_hash"><b>Owner:</b>  \n%s</string>
+    <string name="value"><b>Value:</b> \n%s</string>
+    <string name="expire"><b>Expires:</b>  \n%d</string>
+    <string name="blockchain"><b>Blockchain:</b>  \n%s</string>
+    <string name="last_txid"><b>Last txid:</b>  \n%s</string>
+    <string name="zone_file"><b>ZoneFile:</b>  \n%s</string>
+
+    <string name="expand">Tap to Expand!!</string>
+    <string name="collapse">Tap to Collapse!!</string>
+</resources>
